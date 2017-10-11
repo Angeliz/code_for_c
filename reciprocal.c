@@ -17,3 +17,4 @@ int main(int argc, char const *argv[])
     printf("hello world!\n");
     return 0;
 }
+C:\Program Files\Microsoft VS Code\bin
