@@ -1,20 +1,9 @@
-// #include <stdio.h>
-// #include <ctype.h>
-// #include <math.h>
-// #include <stdlib.h>
-// int main(){
-// 	double x;
-// 	double s=0;
-// 	s=1.0/x;
-// 	scanf("%lf", &x);
-// 	printf("%lf", &s);
-// 	return 0;
-// }
-#include <stdio.h>
-
-int main(int argc, char const *argv[])
-{
-    printf("hello world!\n");
-    return 0;
+//从键盘输入一个实数，计算输出它的倒数
+#include "stdio.h"
+#include "stdlib.h" 
+void main(){
+	double number;
+	scanf("%lf",&number);
+	printf("%lf",1/number);
 }
-C:\Program Files\Microsoft VS Code\bin
+
